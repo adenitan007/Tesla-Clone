@@ -1,0 +1,350 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box !important;
+  text-decoration: none;
+  list-style: none;
+
+}
+
+body {
+  margin: 0 !important;
+}
+
+a {
+  color: black;
+}
+
+
+.flex-container {
+  height: 100%;
+  align-items: center;
+}
+
+.top-nav {
+  background-color: white;
+  align-items: baseline;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  position: fixed;
+  z-index: 2;
+}
+
+.top-nav h1 {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.top-nav a {
+  color: black;
+  text-decoration: underline;
+  font-size: 1rem;
+  padding-left: 5px;
+  z-index: 1;
+}
+
+.nav-container {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: fixed;
+  width: 100%;
+  top: 50px;
+  z-index: 2;
+}
+
+.nav-container a {
+  color: black;
+  text-decoration: none;
+}
+
+.logo a svg {
+  width: 100px;
+  height: 50px;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  padding-right: 145px;
+}
+
+.menuhov:hover {
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  color: black;
+}
+
+
+.padmenu {
+  padding: 6px 16px;
+  border-radius: 10px;
+  border-collapse: collapse;
+  text-align: center;
+  text-decoration: none !important;
+  display: inline-block;
+}
+
+.side-nav {
+  gap: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+/*ayinla part*/
+
+.modal-dialog {
+  width: 100%;
+  /* margin-right: 0 !important; */
+  /* margin: auto 0 auto 0 !important; */
+}
+
+.modal-dialog-slideout {
+  min-height: 100%;
+  margin: 0 0 0 auto !important;
+  background: #fff;
+}
+
+.modal.fade .modal-dialog.modal-dialog-slideout {
+  -webkit-transform: translate(100%, 0) scale(1);
+  transform: translate(100%, 0) scale(1);
+}
+
+.modal.fade.show .modal-dialog.modal-dialog-slideout {
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+  display: flex;
+  align-items: stretch;
+  -webkit-box-align: stretch;
+  height: 100%;
+}
+
+.modal.fade.show .modal-dialog.modal-dialog-slideout .modal-body {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.modal-dialog-slideout .modal-content {
+  border: 0;
+}
+
+.modal-dialog-slideout .modal-header,
+.modal-dialog-slideout .modal-footer {
+  height: 4rem;
+  display: block;
+}
+
+.top-content {
+  position: relative;
+  bottom: 15rem;
+}
+.top-content h1{
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.buttons {
+  position: relative;
+  top: 22rem;
+  gap: 2rem;
+  display: flex
+}
+
+.buttons a {
+  background-color: #bdbbbc;
+  border-radius: 5px;
+  border: none;
+  color: black;
+  padding: 13px 90px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+a.firstText {
+  background-color: #25262c;
+  color: white;
+}
+
+a.sub {
+  text-decoration: underline;
+  color: black;
+}
+
+a.subline {
+  color: black;
+  text-decoration: none;
+}
+.model-S-container {
+  height: 100vh;
+  width: 100%;
+  background-image: url(image/model-s.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.model-S-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.model-S-content a.sub {
+  text-decoration: underline;
+}
+
+.model-3-container {
+  height: 100vh;
+  width: 100%;
+  background-image: url(image/model-3.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.model-3-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.model-X-container {
+  height: 100vh;
+  width: 100%;
+  background-image: url(image/model-x.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.model-X-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.model-Y-container {
+  height: 100vh;
+  width: 100%;
+  background-image: url(image/model-y.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.model-Y-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.model-solarpanels-container {
+  height: 100vh;
+  width: 100%;
+  background-image: url(image/solarpanels.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.model-solarpanels-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.model-Solar-Roof-container {
+  height: 100vh;
+  width: 100%;
+  background-image: url(image/roof.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.model-Solar-Roof-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.model-accessories-container {
+  height: 100vh;
+  width: 100%;
+  background-image: url(image/accessories.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.model-accessories-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.modal-content.conmainbillpayment{
+  padding: 60px;
+}
+.modal-content.conmainbillpayment a{
+ padding: 10px 40px;
+ color: black;
+ text-decoration: none;
+ font-weight: 600;
+}
+
+.modal-content.conmainbillpayment a:hover {
+  background-color: #f2f2f2;
+  width: fit-content;
+  border-radius: 5px;
+  color: black;
+ 
+}
+/* .modal-content.conmainbillpayment a:first-child {
+  padding:80px 0px 10px 40px;
+} */
+.scroll-container {
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+/* .section {
+  height: 100vh;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+.section {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+} */
+footer{
+  text-align: center;
+  justify-content: space-between;
+
+}
+footer a{
+  color: #25262c;
+  text-decoration: none;
+}
